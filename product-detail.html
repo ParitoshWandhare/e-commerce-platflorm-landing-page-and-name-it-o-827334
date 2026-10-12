@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Detail - Orchid</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="product-detail.css" />
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Orchid</a>
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html#features">Features</a>
+                <a href="index.html#products">Products</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <a href="#" class="cart-icon" aria-label="Shopping cart">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H21L20 14H7L6 6Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18" cy="20" r="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+        </div>
+    </header>
+    
+    <!-- Product Detail Section -->
+    <section class="product-detail">
+        <div class="container">
+            <div class="product-container">
+                <div class="product-image">
+                    <img id="productImage" src="" alt="Product Image" />
+                </div>
+                <div class="product-info">
+                    <h1 id="productTitle"></h1>
+                    <p class="price" id="productPrice"></p>
+                    <p id="productDescription"></p>
+                    <button class="btn-primary" id="addToCartBtn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Orchid. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 8H7V12H9V22H13V12H16L17 8H13V6C13 5.44772 13.4477 5 14 5H17V1H14C11.7909 1 10 2.79086 10 5V8H9Z" fill="currentColor"/></svg></a>
+                <a href="#" aria-label="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 2C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2H7ZM12 8C14.2091 8 16 9.79086 16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8ZM18.5 6.5C18.7761 6.5 19 6.72386 19 7C19 7.27614 18.7761 7.5 18.5 7.5C18.2239 7.5 18 7.27614 18 7C18 6.72386 18.2239 6.5 18.5 6.5Z" fill="currentColor"/></svg></a>
+                <a href="#" aria-label="Twitter"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23 3.00005C22.0424 3.6755 20.9829 4.17987 19.86 4.47005C19.2577 3.8375 18.4573 3.42353 17.567 3.3033C16.6768 3.18307 15.7514 3.36361 15 3.81005C14.2486 4.25648 13.7188 4.93957 13.5 5.75005C11.7242 5.58228 10.0055 4.87284 8.67638 3.73443C7.34726 2.59602 6.47471 1.09999 6.19  -0.5C5.1284 0.21871 4.24022 1.2022 3.665 2.3325C3.08978 3.4628 2.85235 4.79681 2.97999 6.1125C2.97999 9.25005 5.26999 12.2101 8.31999 12.8101C7.94599 13.9241 7.26499 14.8845 6.33999 15.5501C5.41499 16.2158 4.28499 16.5599 3.12999 16.5301C4.43999 17.4381 5.94999 18.0101 7.55999 18.1501C4.53999 20.3101 0.99999 21.4601 -2.5 20.9701C1.24099 23.151 5.57299 24.0001 9.99999 24.0001C19.9999 24.0001 24.9999 15.0001 24.9999 7.50005C24.9999 7.26005 24.9979 7.02005 24.9899 6.78005C26.028 6.09805 26.9455 5.23775 27.7 4.25005L27.7 4.25005Z" fill="currentColor"/></svg></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="product-detail.js"></script>
+</body>
+</html>
